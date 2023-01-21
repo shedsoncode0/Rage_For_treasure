@@ -1,7 +1,7 @@
 const mainCharacter = new Sprite({
     position: {
-        x: innerWidth / 2 - createSprite(mainCharacterImage).width / 4,
-        y: innerHeight / 2 - createSprite(mainCharacterImage).height / 4,
+        x: 800 / 2 - createSprite(mainCharacterImage).width / 4,
+        y: 600 / 2 - createSprite(mainCharacterImage).height / 4,
     },
     image: createSprite(mainCharacterImage),
     scale: 2.3,
